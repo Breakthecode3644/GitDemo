@@ -18,6 +18,8 @@ public class Browseropening {
 		a.add("Poonam");
 		
 		System.out.println(a.get(1));
+		
+		driver.quit();
 	}
 
 }
