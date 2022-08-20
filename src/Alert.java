@@ -14,6 +14,7 @@ public class Alert {
 		driver.findElement(By.id("alertbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().accept();
+		driver.quit();
 		
 	}
 
